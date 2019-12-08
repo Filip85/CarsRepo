@@ -1,0 +1,6 @@
+C:\Users\Filip\source\repos\Cars\CarsDB\bin\Debug\CarsDB.dacpac
+C:\Users\Filip\source\repos\Cars\CarsDB\bin\Debug\CarsDB.dll
+C:\Users\Filip\source\repos\Cars\CarsDB\bin\Debug\CarsDB.pdb
+C:\Users\Filip\source\repos\Cars\CarsDB\obj\Debug\CarsDB.sqlprojAssemblyReference.cache
+C:\Users\Filip\source\repos\Cars\CarsDB\obj\Debug\CarsDB.dll
+C:\Users\Filip\source\repos\Cars\CarsDB\obj\Debug\CarsDB.pdb

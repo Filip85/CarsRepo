@@ -1,0 +1,8 @@
+﻿CREATE TABLE [dbo].[VehicleMakeT]
+(
+	[Id] INT NOT NULL PRIMARY KEY IDENTITY, 
+    [Name] NCHAR(20) NOT NULL, 
+    [Abrv] NCHAR(10) NOT NULL
+)
+
+
