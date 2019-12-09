@@ -25,7 +25,23 @@ namespace DataLibrary.DataAccess
             }
         }
 
+        public static List<T> LoadDataId<T>(string sql, T data)
+        {
+            using (IDbConnection cnn = new SqlConnection(GetConnectionString()))
+            {
+                return cnn.Query<T>(sql, data).ToList();
+            }
+        }
+
         public static int SaveData<T>(string sql, T data)
+        {
+            using (IDbConnection cnn = new SqlConnection(GetConnectionString()))
+            {
+                return cnn.Execute(sql, data);        //return number of records affected
+            }
+        }
+
+        public static int DeleteData<T>(string sql, T data)
         {
             using (IDbConnection cnn = new SqlConnection(GetConnectionString()))
             {

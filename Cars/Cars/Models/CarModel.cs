@@ -8,6 +8,8 @@ namespace Cars.Models
 {
     public class CarModel
     {
+        public int Id { get; set; }
+
         [Display(Name = "Brand name.")]
         public string Name { get; set; }
 

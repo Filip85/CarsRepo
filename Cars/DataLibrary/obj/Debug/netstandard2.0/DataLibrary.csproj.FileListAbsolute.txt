@@ -6,3 +6,11 @@ C:\Users\Filip\source\repos\Cars\DataLibrary\obj\Debug\netstandard2.0\DataLibrar
 C:\Users\Filip\source\repos\Cars\DataLibrary\bin\Debug\netstandard2.0\DataLibrary.pdb
 C:\Users\Filip\source\repos\Cars\DataLibrary\obj\Debug\netstandard2.0\DataLibrary.dll
 C:\Users\Filip\source\repos\Cars\DataLibrary\obj\Debug\netstandard2.0\DataLibrary.pdb
+C:\Users\Filip\Desktop\Repo\CarsRepo\Cars\DataLibrary\bin\Debug\netstandard2.0\DataLibrary.deps.json
+C:\Users\Filip\Desktop\Repo\CarsRepo\Cars\DataLibrary\bin\Debug\netstandard2.0\DataLibrary.dll
+C:\Users\Filip\Desktop\Repo\CarsRepo\Cars\DataLibrary\bin\Debug\netstandard2.0\DataLibrary.pdb
+C:\Users\Filip\Desktop\Repo\CarsRepo\Cars\DataLibrary\obj\Debug\netstandard2.0\DataLibrary.csprojAssemblyReference.cache
+C:\Users\Filip\Desktop\Repo\CarsRepo\Cars\DataLibrary\obj\Debug\netstandard2.0\DataLibrary.AssemblyInfoInputs.cache
+C:\Users\Filip\Desktop\Repo\CarsRepo\Cars\DataLibrary\obj\Debug\netstandard2.0\DataLibrary.AssemblyInfo.cs
+C:\Users\Filip\Desktop\Repo\CarsRepo\Cars\DataLibrary\obj\Debug\netstandard2.0\DataLibrary.dll
+C:\Users\Filip\Desktop\Repo\CarsRepo\Cars\DataLibrary\obj\Debug\netstandard2.0\DataLibrary.pdb

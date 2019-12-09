@@ -4,3 +4,13 @@ C:\Users\Filip\source\repos\Cars\CarsDB\bin\Debug\CarsDB.pdb
 C:\Users\Filip\source\repos\Cars\CarsDB\obj\Debug\CarsDB.sqlprojAssemblyReference.cache
 C:\Users\Filip\source\repos\Cars\CarsDB\obj\Debug\CarsDB.dll
 C:\Users\Filip\source\repos\Cars\CarsDB\obj\Debug\CarsDB.pdb
+C:\Users\Filip\Desktop\Repo\CarsRepo\Cars\CarsDB\bin\Debug\CarsDB.dacpac
+C:\Users\Filip\Desktop\Repo\CarsRepo\Cars\CarsDB\bin\Debug\CarsDB.dll
+C:\Users\Filip\Desktop\Repo\CarsRepo\Cars\CarsDB\bin\Debug\CarsDB.pdb
+C:\Users\Filip\Desktop\Repo\CarsRepo\Cars\CarsDB\obj\Debug\CarsDB.sqlprojAssemblyReference.cache
+C:\Users\Filip\Desktop\Repo\CarsRepo\Cars\CarsDB\obj\Debug\CarsDB.dll
+C:\Users\Filip\Desktop\Repo\CarsRepo\Cars\CarsDB\obj\Debug\CarsDB.pdb
+C:\Users\Filip\Desktop\Repo\CarsRepo\Cars\CarsDB\obj\Debug\Model.xml
+C:\Users\Filip\Desktop\Repo\CarsRepo\Cars\CarsDB\obj\Debug\refactor.xml
+C:\Users\Filip\Desktop\Repo\CarsRepo\Cars\CarsDB\obj\Debug\postdeploy.sql
+C:\Users\Filip\Desktop\Repo\CarsRepo\Cars\CarsDB\obj\Debug\predeploy.sql

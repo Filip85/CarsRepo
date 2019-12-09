@@ -23,19 +23,19 @@ namespace DataLibrary.BusinessLogic
 
         public static int CreateModel(string name, string abrv)
         {
-            var makeID = 12;
-            //List<VehicleModels> model = new List<VehicleModels>();
+            var makeID = 1009;
+            List<VehicleMake> model = new List<VehicleMake>();
 
-           // var dataId = LoadCarIdWithAbrv(abrv);
+            var dataId = LoadCarIdWithAbrv(abrv);
 
-            /*foreach(var row in dataId)
+            foreach(var row in dataId)
             {
-                model.Add(new VehicleModels
+                model.Add(new VehicleMake
                 {
-                    MakeId = row.Id
+                    Id = row.Id
                 });
                 makeID = row.Id;
-            }*/
+            }
 
             VehicleModels data = new VehicleModels
             {
@@ -49,18 +49,38 @@ namespace DataLibrary.BusinessLogic
             return SqlDataAccess.SaveData(sql, data);
         }
 
-        public static List<VehicleMake> LoadCars()
+        public static List<CarModel> LoadCars()
         {
-            string sql = @"select Id, Name, Abrv from dbo.VehicleMakeT";
+            //string sql = @"select Id, Name, Abrv from dbo.VehicleMakeT";
 
-            return SqlDataAccess.LoadData<VehicleMake>(sql);
+            string sql = @"select VehicleMakeT.Id, VehicleMakeT.Name, VehicleModelT.Name, VehicleModelT.Abrv from dbo.VehicleModelT inner join VehicleMakeT on VehicleMakeT.Id = VehicleModelT.MakeId"; 
+
+            return SqlDataAccess.LoadData<CarModel>(sql);
         }
 
-        public static List<VehicleMake> LoadCarIdWithAbrv(string Abrv)
+        public static List<VehicleMake> LoadCarIdWithAbrv(string Abrv) 
         {
-            string sql = @"select Id from dbo.VehicleMakeT where Abrv = @Abrv";
+            VehicleMake data = new VehicleMake
+            {
+                Abrv = Abrv
+            };
 
-            return SqlDataAccess.LoadData<VehicleMake>(sql);
+            string sql = @"select Id from dbo.VehicleMakeT where Abrv=@Abrv";
+
+            return SqlDataAccess.LoadDataId<VehicleMake>(sql, data);
+        }
+
+        public static int DeleteData(int id)
+        {
+            VehicleMake data = new VehicleMake
+            {
+                Id = id
+            };
+
+
+            string sql = @"delete from dbo.VehicleMakeT where Id=@Id";
+
+            return SqlDataAccess.DeleteData<VehicleMake>(sql, data);
         }
     }
 }

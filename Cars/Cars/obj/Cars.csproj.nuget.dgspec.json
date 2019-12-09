@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Filip\\source\\repos\\Cars\\Cars\\Cars.csproj": {}
+    "C:\\Users\\Filip\\Desktop\\Repo\\CarsRepo\\Cars\\Cars\\Cars.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Filip\\source\\repos\\Cars\\Cars\\Cars.csproj": {
+    "C:\\Users\\Filip\\Desktop\\Repo\\CarsRepo\\Cars\\Cars\\Cars.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Filip\\source\\repos\\Cars\\Cars\\Cars.csproj",
+        "projectUniqueName": "C:\\Users\\Filip\\Desktop\\Repo\\CarsRepo\\Cars\\Cars\\Cars.csproj",
         "projectName": "Cars",
-        "projectPath": "C:\\Users\\Filip\\source\\repos\\Cars\\Cars\\Cars.csproj",
+        "projectPath": "C:\\Users\\Filip\\Desktop\\Repo\\CarsRepo\\Cars\\Cars\\Cars.csproj",
         "packagesPath": "C:\\Users\\Filip\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Filip\\source\\repos\\Cars\\Cars\\obj\\",
+        "outputPath": "C:\\Users\\Filip\\Desktop\\Repo\\CarsRepo\\Cars\\Cars\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Filip\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -27,8 +27,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\Filip\\source\\repos\\Cars\\DataLibrary\\DataLibrary.csproj": {
-                "projectPath": "C:\\Users\\Filip\\source\\repos\\Cars\\DataLibrary\\DataLibrary.csproj"
+              "C:\\Users\\Filip\\Desktop\\Repo\\CarsRepo\\Cars\\DataLibrary\\DataLibrary.csproj": {
+                "projectPath": "C:\\Users\\Filip\\Desktop\\Repo\\CarsRepo\\Cars\\DataLibrary\\DataLibrary.csproj"
               }
             }
           }
@@ -77,14 +77,14 @@
         }
       }
     },
-    "C:\\Users\\Filip\\source\\repos\\Cars\\DataLibrary\\DataLibrary.csproj": {
+    "C:\\Users\\Filip\\Desktop\\Repo\\CarsRepo\\Cars\\DataLibrary\\DataLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Filip\\source\\repos\\Cars\\DataLibrary\\DataLibrary.csproj",
+        "projectUniqueName": "C:\\Users\\Filip\\Desktop\\Repo\\CarsRepo\\Cars\\DataLibrary\\DataLibrary.csproj",
         "projectName": "DataLibrary",
-        "projectPath": "C:\\Users\\Filip\\source\\repos\\Cars\\DataLibrary\\DataLibrary.csproj",
+        "projectPath": "C:\\Users\\Filip\\Desktop\\Repo\\CarsRepo\\Cars\\DataLibrary\\DataLibrary.csproj",
         "packagesPath": "C:\\Users\\Filip\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Filip\\source\\repos\\Cars\\DataLibrary\\obj\\",
+        "outputPath": "C:\\Users\\Filip\\Desktop\\Repo\\CarsRepo\\Cars\\DataLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Filip\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -46,17 +46,28 @@ namespace Cars.Controllers
 
             List<CarModel> cars = new List<CarModel>();
 
+            List<CarModel> bla = new List<CarModel>();
+          
+
             foreach (var row in CarProcessor.LoadCars())
             {
                 cars.Add(new CarModel
                 {
-                    Name = row.Name,
-                    Brand = row.Abrv,
+                    Id = row.Id,
+                    Name = row.Brand,
+                    Brand = row.Name,
                 });
 
             }
 
             return View(cars);
+        }
+
+        [HttpPost]
+        public IActionResult Delete(int id)
+        {
+            _ = CarProcessor.DeleteData(id);
+            return RedirectToAction("Index");
         }
     }
 }
